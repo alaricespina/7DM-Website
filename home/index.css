@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+#Background {
+  /* Full height */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  width: auto;
+  height: 100%;
+  font-size: 4vh;
+  margin: 0;
+  margin-right: 5.5vw;
+  padding: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: none;
+  /*background: #b83232;*/
+  background: none;
+  color: fff;
+  letter-spacing: .25vw;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#Coding {
+  margin-right: 0;
+}
+
+#Buttons {
+  position: absolute;
+  z-index: 3;
+  width: 80%;
+  height: 10%;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+
+}
+
+#Logo {
+  position: absolute;
+  z-index: 3;
+  width: 17%;
+  height: auto;
+  left: 42%;
+  top: 30%;
+  z-index: 20;
+  /*animation: spin 4s linear infinite;*/
+  transform: rotate(15deg) 2s, rotate(-120deg) 2s;
+}
+
+#Cover {
+  background-color: #b83232;
+  opacity: 0.25;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
